@@ -245,7 +245,7 @@ class Landing extends React.Component {
                         </div>
                         <div className="pl-4">
                           <h5 className="title text-warning">
-                            Modular Components
+                            placeholder garbage
                           </h5>
                           <p>
                             The Arctic Ocean freezes every winter and much of
