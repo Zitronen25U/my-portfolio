@@ -60,15 +60,15 @@ class Index extends React.Component {
           <Hero />
           <Buttons />
           <Inputs />
-          <section className="section">
+          {/* <section className="section">
             <Container>
               <CustomControls />
               <Menus />
             </Container>
-          </section>
+          </section> */}
           <Navbars />
           <section className="section section-components">
-            <Container>
+            {/* <Container>
               <Tabs />
               <Row className="row-grid justify-content-between align-items-center mt-lg">
                 <Progress />
@@ -83,12 +83,12 @@ class Index extends React.Component {
               <Modals />
               <Datepicker />
               <TooltipPopover />
-            </Container>
+            </Container> */}
           </section>
-          <Carousel />
+          {/* <Carousel />
           <Icons />
           <Login />
-          <Download />
+          <Download /> */}
         </main>
         <CardsFooter />
       </>

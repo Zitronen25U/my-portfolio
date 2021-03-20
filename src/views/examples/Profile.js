@@ -24,6 +24,8 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 import profile from "assets/img/theme/team-4-800x800.jpg";
+import brian from "assets/img/brian.jpg";
+import CardsFooter from "components/Footers/CardsFooter";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -75,7 +77,7 @@ class Profile extends React.Component {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={profile}
+                            src={brian}
                           />
                         </a>
                       </div>
@@ -88,8 +90,8 @@ class Profile extends React.Component {
                         <Button
                           className="mr-4"
                           color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          href="https://www.linkedin.com/in/brian-lemons25/" target="_blank" rel="noopener noreferrer"
+                          // onClick={e => e.preventDefault()}
                           size="sm"
                         >
                           Connect
@@ -97,23 +99,23 @@ class Profile extends React.Component {
                         <Button
                           className="float-right"
                           color="default"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          href="mailto:brian.m.lemons@outlook.com"
+                          // onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Message
+                         Email
                         </Button>
                       </div>
                     </Col>
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">1</span>
+                          <span className="description">Year Coding</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
+                          <span className="heading">4</span>
+                          <span className="description">Army Years</span>
                         </div>
                         <div>
                           <span className="heading">89</span>
@@ -124,44 +126,37 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Brian Lemons{" "}
+                      <span className="font-weight-light">, 26</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Seattle, Washington
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Software Engineer | Python | Fullstack JavaScript
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Northwest University | Code Fellows
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        Brian is an Army Veteran and aspiring Software Engineer. He served for 4 years as an Airborne Soldier and Signal Support Systems Specialist is Anchorage, Alaska. Upon exiting the military, Brian had a passion for technology and building projects. He decided he wanted to combine these passions and build projects from the ground up. Now, Brian is enrolled in Code Fellows, and aspires to become a Full Stack JavaScript Developer
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
-                          Show more
-                        </a>
                       </Col>
                     </Row>
                   </div>
                 </div>
               </Card>
             </Container>
+            <CardsFooter />
           </section>
         </main>
-        <SimpleFooter />
       </>
     );
   }

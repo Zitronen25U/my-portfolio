@@ -21,7 +21,7 @@ import React from "react";
 import { Button, Container, Row, Col } from "reactstrap";
 import reactWhite from "assets/img/brand/argon-react-white.png";
 import creative from "assets/img/brand/creativetim-white-slim.png";
-
+import brian from "assets/img/brian.jpg"
 class Hero extends React.Component {
   render() {
     return (
@@ -49,29 +49,29 @@ class Hero extends React.Component {
                     <img
                       alt="..."
                       className="img-fluid"
-                      src={reactWhite}
+                      src={brian}
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                    Software Engineer | Full stack JavaScript Developer | U.S. Army Veteran
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0"
                         color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        href="https://www.linkedin.com/feed/?midToken=AQHTd-1vqBkzgw&trk=eml-email_m2m_invite_single_01-header-27-home&trkEmail=eml-email_m2m_invite_single_01-header-27-home-null-83qv64~kf5u9q7a~9x-null-neptune%2Ffeed"
                         size="lg"
                       >
                         <span className="btn-inner--icon mr-1">
                           <i className="ni ni-cloud-download-95" />
                         </span>
-                        <span className="btn-inner--text">Download React</span>
+                        <span className="btn-inner--text">Check Out My LinkedIn</span>
                       </Button>{" "}
+
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="github"
-                        href="https://github.com/creativetimofficial/argon-design-system-react"
+                        href="https://github.com/Zitronen25U"
                         size="lg"
                         target="_blank"
                       >
@@ -79,21 +79,16 @@ class Hero extends React.Component {
                           <i className="fa fa-github" />
                         </span>
                         <span className="btn-inner--text">
-                          <span className="text-warning mr-1">Star us</span>
-                          on Github
+                          <span className="text-warning mr-1">Check Out My</span>
+                          GitHub
                         </span>
                       </Button>
                     </div>
                     <div className="mt-5">
                       <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
+                        *proudly coded by Brian Lemons
                       </small>
-                      <img
-                        alt="..."
-                        className="ml-1"
-                        style={{ height: "28px" }}
-                        src={creative}
-                      />
+                  
                     </div>
                   </Col>
                 </Row>
